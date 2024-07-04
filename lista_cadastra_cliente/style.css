@@ -1,0 +1,80 @@
+/* */
+
+/* Corpo da pagina*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #486f58;
+}
+
+/*Classe de titulo retangular e comprindo*/
+.cabecario {
+    
+    background-color: #57e6fc;
+    color: #1a1629;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    
+}
+
+/*Classe igua o de titulo retangular e comprindo porem de outra cor*/
+.content {
+    background-color: #feffc9;
+    color: #333333;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/*Classe igua o de titulo porem de cor de fundo escura e letras claras*/
+.status{
+    background-color: #000000;
+    color: #efffcb;
+    padding: 2px;
+    margin: 10px;
+    border: 1px solid #7f1818;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+
+/*alinha no meio */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px;
+    
+}
+
+/*Botao em div */
+.botao {
+            display: inline-block;
+            width: 128px; /* Largura do botão */
+            height: 32px; /* Altura do botão */
+            text-align:center;
+            color:#FFF;
+            border: 2px solid #aaa;
+            cursor: pointer;
+        }
+.botao1 {
+    background-color: #0A0;
+}
+
+#flex {
+    flex: 0 0 220px; /* Definindo largura fixa de 300px para o primeiro container */
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
